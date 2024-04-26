@@ -1,13 +1,10 @@
-# Personal basics plugin
+# Buffer opener
 
-Set of default options and keymaps for Neovim.
+Open buffers in split windows
 
 ## To do
 
-- [ ] Extend to be able to use with different configs with minimal modifications
+- [ ] Abstract personal vault specific code
+- [ ] Extend to be able to use filter methods (i.e. provide a filter function that is called per file / buffer returning
+if the file / buffer should be opened)
 - [ ] Cleanup
-
-## Mentions and inspiration
-
-- [mini.basics](https://github.com/echasnovski/mini.basics) plugin
-- [vim-sensible](https://github.com/tpope/vim-sensible)
